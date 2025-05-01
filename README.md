@@ -2,7 +2,6 @@
 
 MERN Formz is an open-source full-stack form management system built using the MERN stack — MongoDB, Express, React, and Node.js. Designed for scalability, simplicity, and collaboration, this project allows developers to dynamically create, store, and manage forms.
 
-> 🎯 Built and maintained by [Krishi Shah](https://www.linkedin.com/in/krishishah1211/)  
 > 🌐 Proudly shared under the [IntelligenZ](https://www.youtube.com/channel/UCbUtPTIsWVP5AhbswlpKqww) channel
 
 ---
@@ -42,7 +41,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mern-formz.git
+git clone https://github.com/Intelligenz-x/FormZ.git
 cd mern-formz
 ```
 
@@ -106,9 +105,9 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-- LinkedIn: [Krishi Shah](https://www.linkedin.com/in/krishishah1211/)  
+- LinkedIn: [IntelligenZ Talks](https://www.linkedin.com/company/intelligenztalks/)  
 - YouTube: [IntelligenZ](https://www.youtube.com/channel/UCbUtPTIsWVP5AhbswlpKqww)  
-- GitHub: [@Krishi1211](https://github.com/Krishi1211)
+- GitHub: [@Intelligenz-x](https://github.com/Intelligenz-x)
 
 ---
 
