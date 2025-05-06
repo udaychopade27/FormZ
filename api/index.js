@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "http://frontend:3000",
   })
 );
 
@@ -41,4 +41,6 @@ app.post('/register', async (req, res) => {
     }
 })
 
-app.listen(4000);
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Server is running on port 5000");
+});
