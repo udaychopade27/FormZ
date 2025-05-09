@@ -6,13 +6,7 @@
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Docker Commands](#docker-commands)
-- [Configuration Files](#configuration-files)
-- [Environment Variables](#environment-variables)
-- [Troubleshooting](#troubleshooting)
-- [FAQ](#faq)
+
 
 ## Prerequisites
 
