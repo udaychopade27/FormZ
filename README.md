@@ -63,11 +63,17 @@ npm install
 
 ### 3. Setup Environment Variables
 
-Create a `.env` file in the `/server` directory and add:
+Create a `.env` file in the `/api` directory and add:
 
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+```
+
+Create a `.env` file in the `/client` directory and add:
+
+```env
+REACT_APP_API_URL=your backend url
 ```
 
 ### 4. Run the Application

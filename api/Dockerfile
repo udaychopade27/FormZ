@@ -4,5 +4,5 @@ COPY package*.json ./
 RUN npm install -g nodemon
 RUN npm install
 COPY . .
-EXPOSE 4000
+EXPOSE ${PORT}
 CMD ["nodemon","index.js"]

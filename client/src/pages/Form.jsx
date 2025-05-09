@@ -35,7 +35,8 @@ const Form = () => {
       });
       alert("Registration successful");
     } catch (error) {
-      alert("Registration failed");
+      console.error("Registration Error:", error.response || error);
+      alert(`Registration failed: ${error.response?.data?.message || error.message}`);
     }
   };
 
