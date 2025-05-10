@@ -3,7 +3,7 @@ services:
   frontend:
     build: ./client
     ports:
-      - "3312:3000"
+      - "3312:80"
     environment:
       - REACT_APP_API_URL=${REACT_APP_API_URL} # Adjust if necessary to connect frontend to backend
     depends_on:

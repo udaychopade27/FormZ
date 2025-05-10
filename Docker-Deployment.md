@@ -6,13 +6,7 @@
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Docker Commands](#docker-commands)
-- [Configuration Files](#configuration-files)
-- [Environment Variables](#environment-variables)
-- [Troubleshooting](#troubleshooting)
-- [FAQ](#faq)
+
 
 ## Prerequisites
 
@@ -43,7 +37,7 @@ Before you begin, ensure you have the following installed:
 
 3. Build the containers:
    ```bash
-   docker-compose -f docker-compose.yml build
+   docker-compose -f docker-compose.yml --env-file formz-env-file build
    ``` 
 
 4. Start the container with env file 
